@@ -1,36 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+ul,
+li,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
 iframe {
   display: none;
 }
 
+.App {
+  background-color: lightcyan;
+}
+
 .App__title {
   text-align: center;
-}
+  font-size: 40px;
 
-.PostInfo {
-  margin: 10px auto;
-  width: 90%;
-  border: 1px solid #000;
-  border-radius: 8px;
-  background-color: lightgray;
-  padding: 1em;
-
-  &__title {
-    margin: 0;
-  }
-
-  &__header {
-    margin-bottom: 1em;
-  }
-}
-
-.UserInfo {
-  font-weight: bold;
-}
-
-.CommentList {
-  display: flex;
-  flex-direction: column;
-  gap: 0.7em;
-  background-color: #eee;
-  padding: 1em;
+  padding: 20px;
 }

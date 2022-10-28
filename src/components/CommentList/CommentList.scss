@@ -1,1 +1,14 @@
-//
+.commentList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7em;
+  background-color: #cce2ff;
+  padding: 1em;
+  border-radius: 10px;
+
+  &__title {
+    font-size: 28px;
+    margin-bottom: 8px;
+    padding: 12px;
+  }
+}

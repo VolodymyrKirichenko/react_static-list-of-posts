@@ -1,1 +1,16 @@
-//
+.userInfo {
+  &__content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__email {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  &__name {
+    font-size: 24px;
+    margin-bottom: 12px;
+  }
+}

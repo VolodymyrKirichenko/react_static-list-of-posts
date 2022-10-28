@@ -1,1 +1,15 @@
-//
+.postList__wrapper {
+  display: flex;
+  flex-direction: column;
+
+  gap: 40px;
+
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.postList__item {
+  padding: 20px;
+  border-radius: 20px;
+  background-color: lightsteelblue;
+}
