@@ -2,9 +2,9 @@ import { FC } from 'react';
 import { User } from '../Types/User';
 import './UserInfo.scss';
 
-type Props = {
+interface Props {
   user: User;
-};
+}
 
 export const UserInfo: FC<Props> = (props) => {
   const { user } = props;

@@ -2,9 +2,9 @@ import { FC } from 'react';
 import { Comment } from '../Types/Comment';
 import './CommentInfo.scss';
 
-type Props = {
+interface Props {
   comment: Comment;
-};
+}
 
 export const CommentInfo: FC<Props> = (props) => {
   const {
@@ -17,17 +17,13 @@ export const CommentInfo: FC<Props> = (props) => {
     <div className="comment">
       <div className="comment__info-title">
         <p className="comment__info-name">
-          Name:
-          {' '}
-          <span>
-            {name}
-          </span>
+          {`Name: ${name}`}
         </p>
 
         <p>
-          Email:
-          {' '}
-          <a href={email}>
+          {'Email: '}
+
+          <a href={`mailto:${email}`}>
             {email}
           </a>
         </p>
