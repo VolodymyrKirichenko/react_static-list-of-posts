@@ -11,15 +11,13 @@ export const UserInfo: FC<Props> = (props) => {
 
   return (
     <div className="userInfo">
-      <div className="userInfo__content">
-        <p className="userInfo__email">
-          {user.email}
-        </p>
+      <p className="userInfo__email">
+        {user.email}
+      </p>
 
-        <p className="userInfo__name">
-          {user.name}
-        </p>
-      </div>
+      <p className="userInfo__name">
+        {user.name}
+      </p>
     </div>
   );
 };
