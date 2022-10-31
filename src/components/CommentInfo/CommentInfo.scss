@@ -1,1 +1,19 @@
-//
+.comment {
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 20px;
+  padding: 12px;
+
+  background-color: lightblue;
+  border-radius: 8px;
+
+  &__info-title {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__info-name {
+    font-size: 18px;
+  }
+}
