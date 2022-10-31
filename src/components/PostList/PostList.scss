@@ -1,7 +1,6 @@
 .postList__wrapper {
   display: flex;
   flex-direction: column;
-
   gap: 40px;
 
   max-width: 90%;
@@ -10,6 +9,7 @@
 
 .postList__item {
   padding: 20px;
+
   border-radius: 20px;
   background-color: lightsteelblue;
 }

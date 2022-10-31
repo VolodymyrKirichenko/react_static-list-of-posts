@@ -15,31 +15,26 @@ export const CommentInfo: FC<Props> = (props) => {
 
   return (
     <div className="comment">
-      <div className="comment__info">
-        <div className="comment__info-title">
-          <p className="comment__info-name">
-            Name:
-            {' '}
-            <strong className="comment__info-name">
-              {name}
-            </strong>
-          </p>
+      <div className="comment__info-title">
+        <p className="comment__info-name">
+          Name:
+          {' '}
+          <span>
+            {name}
+          </span>
+        </p>
 
-          <p className="comment__info-email">
-            Email:
-            {' '}
-            <a
-              className="comment__info-email"
-              href={email}
-            >
-              {email}
-            </a>
-          </p>
-        </div>
+        <p>
+          Email:
+          {' '}
+          <a href={email}>
+            {email}
+          </a>
+        </p>
+      </div>
 
-        <div className="comment__info-body">
-          {body}
-        </div>
+      <div>
+        {body}
       </div>
     </div>
   );

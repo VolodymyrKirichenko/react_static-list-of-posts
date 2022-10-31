@@ -17,8 +17,8 @@ export const CommentList: FC<Props> = (props) => {
       </h3>
       {
         comments.map((comment) => (
-          <b className="comment__item">
-            <CommentInfo key={comment.id} comment={comment} />
+          <b key={comment.id}>
+            <CommentInfo comment={comment} />
           </b>
         ))
       }
